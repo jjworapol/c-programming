@@ -1,10 +1,11 @@
 #include <stdio.h>
-void main()
-{
-    int hour, min;
-    printf("Enter hour: ");
-    scanf("%d", &hour);
-    printf("Enter minute: ");
-    scanf("%d", &min);
-    printf("Time is %02d:%02d", hour, min);
+main(){
+	char c,x;
+	int char_cnt=0;
+
+	while ((c=getchar()) != '\n')
+		x = c;
+		if (x == c )
+			char_cnt++;
+	printf("%d\n", char_cnt);
 }
