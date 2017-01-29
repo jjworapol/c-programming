@@ -1,11 +1,14 @@
 #include <stdio.h>
-main(){
-	char c,x;
-	int char_cnt=0;
+void main()
+{
+	int time,day,hour,minute ;
+	printf("Enter computer working time: ");
+	scanf("%d",&time);
+	day=time/1440;
+	time=time%1440;
+	hour=time/60;
+	time%60;
+	minute=time
+	printf("It is %d days %d hours and %d minutes.",day,hour,minute);
 
-	while ((c=getchar()) != '\n')
-		x = c;
-		if (x == c )
-			char_cnt++;
-	printf("%d\n", char_cnt);
 }
